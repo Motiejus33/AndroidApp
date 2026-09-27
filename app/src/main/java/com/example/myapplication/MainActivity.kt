@@ -32,5 +32,11 @@ class MainActivity : AppCompatActivity() {
         button3.setOnClickListener {
             textView.setTextColor(Color.GREEN)
         }
+
+        val button4 = findViewById<Button>(R.id.button4)
+
+        button4.setOnClickListener {
+            textView.setBackgroundColor(Color.YELLOW)
+        }
     }
 }
