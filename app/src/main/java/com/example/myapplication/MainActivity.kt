@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -24,6 +25,12 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener {
             textView.text = "Mygtukas paspaustas"
+        }
+
+        val button3 = findViewById<Button>(R.id.button3)
+
+        button3.setOnClickListener {
+            textView.setTextColor(Color.GREEN)
         }
     }
 }

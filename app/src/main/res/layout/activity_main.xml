@@ -11,11 +11,11 @@
         android:id="@+id/button2"
         android:layout_width="318dp"
         android:layout_height="196dp"
-        android:layout_marginTop="440dp"
+        android:layout_marginTop="400dp"
         android:text="Mygtukas"
         android:textSize="60sp"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="500dp" />
+        tools:layout_editor_absoluteX="450dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -23,6 +23,16 @@
         android:layout_height="143dp"
         android:text="TextView"
         android:textSize="60sp"
-        tools:layout_editor_absoluteX="512dp"
-        tools:layout_editor_absoluteY="297dp" />
+        tools:layout_editor_absoluteX="485dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="337dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="29dp"
+        android:text="Keisti Spalva"
+        android:textSize="60sp"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        tools:layout_editor_absoluteX="418dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
