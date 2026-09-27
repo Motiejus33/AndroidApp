@@ -11,11 +11,11 @@
         android:id="@+id/button2"
         android:layout_width="318dp"
         android:layout_height="196dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="424dp"
         android:text="Mygtukas"
         android:textSize="60sp"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="450dp" />
+        tools:layout_editor_absoluteX="492dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -23,16 +23,26 @@
         android:layout_height="143dp"
         android:text="TextView"
         android:textSize="60sp"
-        tools:layout_editor_absoluteX="485dp"
-        tools:layout_editor_absoluteY="240dp" />
+        tools:layout_editor_absoluteX="418dp"
+        tools:layout_editor_absoluteY="50dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="337dp"
         android:layout_height="196dp"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="32dp"
         android:text="Keisti Spalva"
         android:textSize="60sp"
         app:layout_constraintTop_toBottomOf="@+id/button2"
-        tools:layout_editor_absoluteX="418dp" />
+        tools:layout_editor_absoluteX="481dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="394dp"
+        android:layout_height="234dp"
+        android:layout_marginTop="8dp"
+        android:text="Keisti fono spalva"
+        android:textSize="60sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="437dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
